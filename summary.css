@@ -1,0 +1,485 @@
+/*
+* @Author: 86166
+* @Date:   2020-06-12 08:07:32
+* @Last Modified by:   86166
+* @Last Modified time: 2020-12-19 10:57:39
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.clear:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.box1{
+	width: 100%;
+}
+.title{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo{
+	width:300px;
+	height:60px;
+	font-size:50px;
+	font-family:楷体;
+	font-weight:bold;
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+}
+.form{
+	width: 400px;
+	height: 40px;
+	margin-left: 100px;
+	margin-top: 30px;
+	float: left;
+	border: 2px solid rgba(0,255,0,1);
+}
+.search{
+	width: 300px;
+	height: 21px;
+	float: left;
+	font-size: 20px;
+	font-family: 楷体;
+	margin-top: 10px;
+	margin-left: 0;
+	outline: none;
+}
+.submit{
+	width: 96px;
+	height: 40px;
+	margin-right: 0;
+	margin-top: 0;
+	background:rgba(0,255,0,1) url(img/fa-search@2x.png) no-repeat center center;
+	cursor: pointer;
+	border: 2px solid rgba(0,255,0,1);
+}
+.user{
+	width: 150px;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 100px;
+	float: left;
+}
+.user>button{
+	width: 60px;
+	height: 22px;
+	margin-left: 5px;
+	font-family: 楷体;
+	font-size: 20px;
+	color:rgba(0,255,0,1);
+	border: 0px;
+	background-color: #fff;
+}
+#div{
+	margin-left:250px;
+	width: 800px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.7);
+	box-shadow:0px 2px 2px 0px rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 1;	
+}
+#div1{
+	width: 450px;
+	height: 400px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+#div2{
+	width: 260px;
+	height: 300px;
+	float: left;
+	margin-left: 40px;
+}
+#div3{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	color:rgb(250,250,250);
+	background-color: green;
+	float: right;
+	margin-right: 180px;
+}
+.box{
+	width: 400px;
+	height: 80px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.box span{
+	width: 80px;
+	height: 20px;
+	font-size: 20px;
+	color:rgb(255,255,255);
+	position: absolute;
+	right: 310px;
+	top: 25px;
+}
+#user{
+	width: 300px;
+	height: 70px;
+	position: absolute;
+	right: 0;
+	border: 0px;
+	font-size: 30px;
+	color:rgb(255,255,255);
+	outline: none;
+	background-color: rgba(0,0,0,0.5);
+}
+#pass{
+	width: 300px;
+	height: 70px;
+	position: absolute;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 30px;
+	color: green;
+	border: 0px;
+	outline: none;
+}
+#btn{
+	width: 400px;
+	height: 80px;
+	background-color: green;
+	font-size: 20px;
+	color:rgb(255,255,255);
+}
+#add1{
+	height: 20px;
+	font-size: 20px;
+	color:rgba(255,255,255,0.5);
+	margin-bottom: 10px;
+}
+#add2{
+	height: 20px;
+	font-size: 20px;
+	color:rgba(255,255,255,0.5);
+	margin-bottom: 10px;
+}
+.box2{
+	width: 100%;
+	height: 420px;
+}
+.picture{
+	width: 1200px;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+}
+#img{
+	width: 1200px;
+	height: 400px;
+}
+.img1{
+	font-size: 30px;
+	font-family: 楷体;
+	position: absolute;
+	bottom: 50px;
+	right: 350px;
+}
+.img2{
+	font-size: 20px;
+	font-family: 楷体;
+	position: absolute;
+	right: 350px;
+	bottom: 20px;
+}
+.nav{
+	width: 300px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.nav ul{
+	width: 240px;
+	height: 360px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+hr{
+	color: rgba(0,255,0,1);
+}
+.nav a{
+	color: rgb(255,255,255);
+	line-height: 30px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+#one{
+	font-size: 40px;
+	line-height: 45px;
+}
+#two{
+	font-size: 30px;
+	line-height: 35px;
+}
+.nav a:hover{
+	color: rgba(0,255,0,1);
+}
+.box3{
+	width: 100%;
+	height: 70px;
+	margin-top: 40px;
+}
+.nav1{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.nav1 li{
+	float: left;
+	width: 170px;
+	height: 30px;
+	margin-left: 10px;
+}
+.nav1 .all{
+	margin-left: 0;
+	margin-top: 0;
+	font-size: 30px;
+	font-family: 楷体;
+	color: rgb(0,255,0);
+}
+.nav1 a{
+	font-size: 15px;
+	font-family: 楷体;
+	color: rgba(0,0,0,0.7);
+	margin-bottom: 0;
+}
+.nav1 a:hover{
+	color: rgb(0,255,0);
+}
+.nav2{
+	width:1200px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 2px 0px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	font-family:楷体;
+	margin-top: 8px; 
+}
+.nav2-box{
+	width: 1100px;
+	height: 18px;
+	margin-top: 21px;
+	margin-left: 40px;
+}
+.nav2-box>div>a{
+	color:rgba(0,0,0,0.7);
+}
+.nav2-box>div>a:hover{
+	color:rgba(0,255,0,1);
+}
+.nav2-box>div{
+	float: left;
+	padding: 0 60px;
+	width: 100px;
+    border-right: 1px solid rgba(0,255,0, 1);
+}
+.last>a{
+	color:rgba(0,255,0,1);
+}
+.last{
+	float: right;
+}
+.last>a:hover{
+	color:rgba(0,255,0,1);
+}
+.box4{
+	width: 100%;
+	height: 350px;
+}
+.tv{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+}
+.tv img{
+	width: 280px;
+	height: 350px;
+}
+.first{
+	margin-left: 0px;
+	float: left;
+	position: relative;
+}
+.second{
+	margin-left: 26px;
+	float: left;
+	position: relative;
+}
+.content{
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.content div span{
+	font-size: 20px;
+	font-family: 楷体;
+}
+.content>div{
+	font-family: 楷体;
+	font-size: 15px;
+	color: rgba(255,255,255,0.7);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.first:hover .content{
+	display: block;
+}
+.second:hover .content{
+	display: block;
+}
+.box5{
+	width: 100%;
+	height: 720px;
+}
+.film{
+	width: 1200px;
+	height: 720px;
+	margin: 0 auto;
+}
+.film img{
+	width: 280px;
+	height: 350px;
+}
+.pic1{
+	margin-bottom: 20px;
+	margin-right: 26px;
+	float: left;
+	position: relative;
+}
+.pic2{
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+.pic3{
+	margin-right: 26px;
+	float: left;
+	position: relative;
+}
+.pic4{
+	position: relative;
+	float: left;
+}
+.pic1:hover .content{
+	display: block;
+}
+.pic2:hover .content{
+	display: block;
+}
+.pic3:hover .content{
+	display: block;
+}
+.pic4:hover .content{
+	display: block;
+}
+.box6{
+	width:1200px;
+	height:220px;
+	margin: 0 auto;
+}
+.foot{
+	width: 1200px;
+	height: 155px;
+	margin: 0 auto;
+	margin-top: 124px;
+}
+.b1{
+	height: 152px;
+	width: 371px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 0;
+}
+.foot-logo{
+	width:150px;
+	height:36px;
+	font-size:36px;
+	font-family:楷体;
+	font-weight:bold;
+	color:rgba(0,255,0,1);
+	line-height:21px;
+	margin-bottom: 35px;
+	margin-left: 0;
+}
+.foot-text{
+	width:400px;
+	height:12px;
+	font-size:12px;
+	font-family:楷体;
+	color:rgba(0,255,0,1);
+	line-height:18px;
+	margin-bottom: 33px;
+	margin-left: 0;
+}
+.down{
+	width:120px;
+	height:36px;
+	border: 1px solid rgba(0,255,0,1);
+	margin-top: 33px;
+}
+.down>div{
+	width:63px;
+	height:15px;
+	font-size:16px;
+	font-family:楷体;
+	color:rgba(0,255,0,1);
+	line-height:18px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.b2{
+	width: 100px;
+	height: 152px;
+	margin-top: 0;
+	margin-left: 200px;
+	float: left;
+}
+.b3{
+	width: 100px;
+	height: 152px;
+	margin-top: 0;
+	margin-left: 100px;
+	float: left;
+}
+.u2>li>a{
+	font-size:12px;
+	font-family:楷体;
+	font-weight:400;
+	color:rgba(0,0,0,0.7);
+	line-height:21px;
+}
+.foot a:hover{
+	color: rgba(0,255,0,1);
+}
+.box7{
+	height: 120px;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	line-height: 120px;
+	margin-top: 0px;
+}
